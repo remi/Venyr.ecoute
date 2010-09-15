@@ -2,4 +2,4 @@ Venyr is a theme for Ecoute, a fast, simple and efficient music player for Mac O
 
 ![A screenshot of Venyr](http://bucket.exomel.com/venyr/venyr.png)
 
-To install, download the latest verson as a `tar.gz` file here → <http://github.com/remiprev/venyr.ecoute/tarball/master>, extract its content (there should be only a `Venyr.ecoute` directory) and open it.
+To install, [download the latest verson](http://github.com/remiprev/venyr.ecoute/tarball/master) as a `tar.gz`, extract its content in a directory, rename the directory to `Venyr.ecoute` and open it. It should now be available in Ecoute’s Themes panel.
