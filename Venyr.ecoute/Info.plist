@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainFile</key>
+	<string>skin.html</string>
+	<key>WindowWidth</key>
+	<integer>374</integer>
+	<key>WindowHeight</key>
+	<integer>570</integer>
+	<key>WindowMode</key>
+	<string>desktop</string>
+	<key>ThemeName</key>
+	<string>Venyr</string>
+	<key>ThemeIdentifier</key>
+	<string>com.remiprevost.Venyr</string>
+	<key>ThemeArtist</key>
+	<string>Rémi Prévost (disc icon by Jordan Green)</string>
+	<key>ThemePreviewImage</key>
+	<string>preview.png</string>
+	<key>ThemeMiniPreviewImage</key>
+	<string>minipreview.png</string>
+</dict>
+</plist>

@@ -1,0 +1,106 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
+#content {
+	width: 474px;
+	height: 570px;
+}
+
+#albumart {
+	position: absolute;
+	background: url("img/case.png") no-repeat 0 4px;
+	width: 174px;
+	height: 134px;
+	top: 0;
+	left: 0;
+}
+
+/* We could use this if we wanted a nice 5px white border around the album cover */
+/*#albumart img {
+	width: 115px;
+	height: 115px;
+	top: 9px;
+	left: 5px;
+}*/
+
+#albumart img {
+	width: 125px;
+	height: 125px;
+	position: absolute;
+	top: 4px;
+	left: 0px;
+	display: block;
+	z-index: 1100;
+}
+
+#albumart #disc {
+	width: 117px;
+	height: 118px;
+	background: url("img/disc.png") no-repeat top left;
+	position: absolute;
+	z-index: 1000;
+	top: 8px;
+	left: 0;
+	display: block;
+	-webkit-transform: translateX(57px) rotate(0deg);
+	-webkit-transition: 0.25s linear;
+}
+
+#albumart.toggle #disc {
+	-webkit-transform: translateX(0px) rotate(90deg);
+	-webkit-transition: 0.25s linear;
+}
+
+#infos {
+	position: absolute;
+	font-size: 11px;
+	top: 140px;
+	left: 0;
+	text-align: left;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.7);
+}
+
+#songname {
+	color: #fff;
+	font-weight: normal;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	padding-top: 0px;
+	font-size: 17px;
+	opacity: 0.9;
+	font-family: "HelveticaNeue-Regular", Helvetica, Arial, sans-serif;
+}
+
+#artist {
+	color: #fff;
+	font-weight: normal;
+	white-space:nowrap;
+	overflow:hidden;
+	font-size: 13px;
+	text-overflow: ellipsis;
+	padding-top: 5px;
+	opacity: 0.8;
+}
+
+#album {
+	color: #fff;
+	font-weight: normal;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	padding-top: 6px;
+	font-size: 10.5px;
+	opacity: 0.75;
+	/*letter-spacing: 0.08em;*/
+	font-family: "HelveticaNeue-Regular", Helvetica, Arial, sans-serif;
+}

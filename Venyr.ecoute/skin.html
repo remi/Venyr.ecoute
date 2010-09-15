@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Venyr</title>
+		<script type="text/javascript" src="dragging.js"></script>
+		<script type="text/javascript" src="playerLogic.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<style type="text/css">
+		/* Important Styles for Consistent Experience */
+		body {
+			-webkit-user-select: none;
+			overflow: hidden;
+			cursor: default;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div id="albumart" ondblclick="toggleDisc()">
+				<img width="115" height="115" src="img/noartwork.png" id="art" />
+				<span id="disc"></span>
+			</div>
+			<div id="infos">
+				<div id="songname"></div>
+				<div id="artist"></div>
+				<div id="album"></div>
+			</div>
+		</div>
+	</body>
+</html>
